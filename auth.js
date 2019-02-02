@@ -1,4 +1,4 @@
 function authenticate(login, password){
-    if (login == "login") return "You were logged in";
-    else return "Login is correct";
+    if (login == "login" && password == "password") return "You were logged in";
+    else return "Login is incorrect";
 }
